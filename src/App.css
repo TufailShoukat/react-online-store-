@@ -1,0 +1,24 @@
+/* Card styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 16px;
+    text-align: center;
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+.card-price {
+    font-size: 1rem;
+    color: #333;
+}
